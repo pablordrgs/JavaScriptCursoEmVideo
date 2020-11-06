@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = 5 + 3
+        var b = a % 5
+        var c = 5 * b ** 2
+        var d = 10 - a / 2
+        var e = 6 * 2 / d
+        var f = b % e + 4 / e
+
+        document.write(`O valor de A ´${a}, de B é ${b}, de C é ${c}, de D é ${d}, de E é ${e} e de F é ${f}<br/>`);
+
+        //auto-atribuições
+        var n = 3
+        n = n + 4 //n += 4 simplificado
+        n = n - 5 //n -= 5
+        n = n * 4 //n *= 4
+        n = n / 2
+        n = n ** 2
+        n = n % 5
+
+        document.write(`O valor de n é ${n}<br/>`)
+
+        //Simplificando
+        var num = 3
+        num += 4
+        num -= 5
+        num *= 4
+        num /= 2
+        num **= 2
+        num %= 5
+
+        document.write(`O valor de num é ${num}<br/>`)
+
+        //Incremento
+        var x = 5
+        x++
+        x--
+        ++x
+
+        document.write(`O valor de X é ${x}<br/>`)
+
+        //Relacionais
+        document.writeln(5 > 2)
+        document.writeln(7 < 4)
+        document.writeln(8 >= 8)
+        document.writeln(9 <= 7)
+        document.writeln(5 == 5)
+        document.writeln(4 != 4)
+
+        //Identidade
+        document.write('<br>')
+        document.writeln(5 == 5)        
+        document.writeln(5 == '5')
+        document.writeln(5 === 5)
+        document.writeln(5 === '5')
+        document.writeln(5 !== 5)
+
+        //Ternário
+        var media = 5.5
+        document.write(media > 7 ? "Aprovado" : "Reprovado")
+
+    </script>
+</body>
+</html>
